@@ -1,0 +1,87 @@
+# Compilación
+bin/
+obj/
+out/
+
+# Configuración del entorno
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuración de build de Rider
+*.sln.iml
+
+# Carpetas de paquetes
+packages/
+# Excepto si tienes un archivo packages.config para proyectos .NET Framework
+!**/packages.config
+
+# Archivos de logs
+*.log
+
+# Publicaciones y distribuciones
+*.publish/
+
+# Archivos de configuraciones locales
+*.local.json
+
+# Secretos de usuario (para mantener claves seguras)
+secrets.json
+
+# Archivos de lock de dependencias (opcional ignorarlos si no quieres que se suban)
+project.lock.json
+project.assets.json
+
+# Build de Visual Studio
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+
+# Sistema operativo (Windows, Linux, Mac)
+*.DS_Store
+Thumbs.db
+
+# Build de .NET Core
+artifacts/
+
+# Otros
+*.ncrunch*
+*.ndepend*
+*.coverage
+*.coveragexml
+*_i.c
+*_p.c
+*_h.h
+*.pdb
+*.cache
+*.dll
+*.exe
+*.tmp
+*.bak
+*.swp
+
+# Test Results
+TestResults/
+
+# Archivos de perfiles de ejecución
+*.vsp
+*.vspx
+*.sap
+*.aps
+
+# Configuraciones de IDEs como Rider o JetBrains
+.idea/
+*.sln.iml
+
+# Archivos temporales de VSCode
+.vscode/
+
+# Archivos generados por dotnet user-secrets
+*.user
+
+# Node_modules (por si en algún proyecto hay frontend embebido)
+node_modules/
