@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./Dockerfile"
+
+[deploy]
+startCommand = "dotnet Prueba.dll"
+restartPolicyType = "always"
+healthcheckPath = "/health"
